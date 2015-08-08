@@ -1,0 +1,29 @@
+{
+  "name": "fetch-react-native-components",
+  "version": "1.0.0",
+  "description": "Fetch react-native components info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/booxood/fetch-react-native-components.git"
+  },
+  "keywords": [
+    "fetch",
+    "react-native",
+    "components"
+  ],
+  "author": "Liucw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/booxood/fetch-react-native-components/issues"
+  },
+  "homepage": "https://github.com/booxood/fetch-react-native-components",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "npm-registry": "^0.1.13",
+    "showdown": "^1.2.2"
+  }
+}
