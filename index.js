@@ -24,6 +24,9 @@ async.waterfall([
 
     async.parallelLimit(tasks, 10, callback);
   },
+  function (jsonResult, callback) {
+    callback(null, tools.imageFilter(jsonResult));
+  },
   function (jsonResultArray, callback) {
     console.log('jsonResultArray.length:', jsonResultArray.length);
     var initMarkdown = fs.readFileSync('./data/init_readme.md');

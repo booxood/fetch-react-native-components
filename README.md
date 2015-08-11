@@ -10,30 +10,12 @@ js-data Adapter for react-native AsyncStorage
 
 ![js-data logo](https://raw.githubusercontent.com/js-data/js-data/master/js-data.png)
 
-![bower version](https://img.shields.io/bower/v/js-data-asyncstorage.svg?style=flat-square)
-
-![npm version](https://img.shields.io/npm/v/js-data-asyncstorage.svg?style=flat-square)
-
-![Circle CI](https://img.shields.io/circleci/project/js-data/js-data-asyncstorage/master.svg?style=flat-square)
-
-![npm downloads](https://img.shields.io/npm/dm/js-data-asyncstorage.svg?style=flat-square)
-
-![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
-
-![Latest Release](https://img.shields.io/github/release/lukasreichart/js-data-asyncstorage.svg?style=flat-square)
-
 ------
 
 
 ### [react-native-accordion](https://github.com/naoufal/react-native-accordion)
 
 An Accordion Component for React Native
-
-![npm](https://img.shields.io/npm/v/react-native-accordion.svg?style=flat-square)
-
-![npm downloads](https://img.shields.io/npm/dm/react-native-accordion.svg?style=flat-square)
-
-![Code Climate](https://img.shields.io/codeclimate/github/naoufal/react-native-accordion.svg?style=flat-square)
 
 ![accordion](https://cloud.githubusercontent.com/assets/1627824/7762243/801c1e46-ffff-11e4-9a36-2183704b6ec6.gif)
 
@@ -47,12 +29,6 @@ An Accordion Component for React Native
 ### [react-native-activity-view](https://github.com/naoufal/react-native-activity-view)
 
 iOS share and action sheets for React Native
-
-![npm version](https://img.shields.io/npm/v/react-native-activity-view.svg?style=flat-square)
-
-![npm downloads](https://img.shields.io/npm/dm/react-native-activity-view.svg?style=flat-square)
-
-![Code Climate](https://img.shields.io/codeclimate/github/naoufal/react-native-activity-view.svg?style=flat-square)
 
 ![react-native-activity-view](https://cloud.githubusercontent.com/assets/1627824/8025905/795fc15c-0d33-11e5-8746-622417deccc3.gif)
 
@@ -146,14 +122,6 @@ Add coloured borders or backgrounds to all views to make it easier to debug layo
 
 A simple way to create dynamic views through device and display detection, allowing the creation of adaptable and universal apps.
 
-![GitHub issues](https://img.shields.io/github/issues/kkjdaniel/react-native-device-display.svg)
-
-![GitHub license](https://img.shields.io/badge/license-GPLv2-blue.svg)
-
-![GitHub license](https://img.shields.io/npm/v/react-native-device-display.svg)
-
-![GitHub license](https://img.shields.io/npm/dm/react-native-device-display.svg)
-
 ![Example GIF Demo](http://i.imgur.com/RKYZf3i.gif)
 
 ![Classes Installation Visual](http://i.imgur.com/vT2qGfr.png)
@@ -166,6 +134,15 @@ A simple way to create dynamic views through device and display detection, allow
 React Native Drawer
 
 ![undefined](https://raw.githubusercontent.com/rt2zz/react-native-drawer/master/examples/rn-drawer.gif)
+
+------
+
+
+### [react-native-dropdown](https://github.com/alinz/react-native-dropdown)
+
+A better Select dropdown menu for react-native
+
+![undefined](https://raw.githubusercontent.com/alinz/react-native-dropdown/master/dropdown.gif)
 
 ------
 
@@ -193,15 +170,6 @@ Easy to show html, image, video fullscreen pages.
 React Native wrapper for native iOS Facebook SDK login button and manager
 
 ![preview](https://raw.githubusercontent.com/magus/react-native-facebook-login/master/preview.gif)
-
-------
-
-
-### [react-native-file-upload](https://github.com/booxood/react-native-file-upload)
-
-A file upload plugin for react-native
-
-![NPM version](https://img.shields.io/npm/v/react-native-file-upload.svg?style=flat-square)
 
 ------
 
@@ -279,10 +247,6 @@ A simple button component allowing you to create customisable and visually appea
 
 Use 1000's of icon fonts in your React Native app including the tab bar.
 
-![NPM](https://nodei.co/npm/react-native-icons.png?downloads=true&downloadRank=true)
-
-![Join the chat at https://gitter.im/corymsmith/react-native-icons](https://badges.gitter.im/Join%20Chat.svg)
-
 ![Screenshot](https://dl.dropboxusercontent.com/u/6721696/stacked-demo.png)
 
 ------
@@ -302,24 +266,6 @@ A React Native module that allows you to use the native UIImagePickerController 
 Progress indicator for networked images, supports progress bar and spinner
 
 ![demo](https://cloud.githubusercontent.com/assets/378279/8722568/309cf2ee-2bc6-11e5-8613-f365e21eddda.gif)
-
-------
-
-
-### [react-native-infinite-scroll-view](https://github.com/exponentjs/react-native-infinite-scroll-view)
-
-An infinitely scrolling view that notifies you as the scroll offset approaches the bottom
-
-![npm package](https://nodei.co/npm/react-native-infinite-scroll-view.png?downloads=true&downloadRank=true&stars=true)
-
-------
-
-
-### [react-native-invertible-scroll-view](https://github.com/exponentjs/react-native-invertible-scroll-view)
-
-An invertible ScrollView for React Native
-
-![npm package](https://nodei.co/npm/react-native-invertible-scroll-view.png?downloads=true&downloadRank=true&stars=true)
 
 ------
 
@@ -374,15 +320,6 @@ A Mapbox GL react native module for creating custom maps
 A <MaskedView> element for react-native
 
 ![screen shot](https://github.com/gilbox/react-native-masked-view/raw/master/masked-view-screenshot.png)
-
-------
-
-
-### [react-native-material-kit](https://github.com/xinthink/react-native-material-kit)
-
-Material Design components for React Native
-
-![DUB](https://img.shields.io/dub/l/vibe-d.svg)
 
 ------
 
@@ -511,31 +448,7 @@ Awesome navigation for your native app.
 
 A React Native wrapper for Safari View Controller
 
-![npm version](https://img.shields.io/npm/v/react-native-safari-view.svg?style=flat-square)
-
-![npm downloads](https://img.shields.io/npm/dm/react-native-safari-view.svg?style=flat-square)
-
-![Code Climate](https://img.shields.io/codeclimate/github/naoufal/react-native-safari-view.svg?style=flat-square)
-
 ![react-native-safari-view](https://cloud.githubusercontent.com/assets/1627824/8345135/ed5f7fc4-1ab8-11e5-814a-a3e9df0ede06.gif)
-
-------
-
-
-### [react-native-scrollable-decorator](https://github.com/exponentjs/react-native-scrollable-decorator)
-
-A standard interface for your scrollable React Native components, making it easier to compose components
-
-![npm package](https://nodei.co/npm/react-native-scrollable-decorator.png?downloads=true&downloadRank=true&stars=true)
-
-------
-
-
-### [react-native-scrollable-mixin](https://github.com/exponentjs/react-native-scrollable-mixin)
-
-A standard interface for your scrollable React Native components, making it easier to compose components.
-
-![npm package](https://nodei.co/npm/react-native-scrollable-mixin.png?downloads=true&downloadRank=true&stars=true)
 
 ------
 
@@ -593,8 +506,6 @@ Simple customizable component to create side menu
 
 Native social authentication for React Native on iOS
 
-![Build Status](https://travis-ci.org/adamjmcgrath/react-native-simple-auth.svg?branch=chore%2Frelease-tasks)
-
 ![Screencast](https://raw.githubusercontent.com/adamjmcgrath/react-native-simple-auth/master/screencast.gif)
 
 ------
@@ -603,12 +514,6 @@ Native social authentication for React Native on iOS
 ### [react-native-slider](https://github.com/jeanregisser/react-native-slider)
 
 A pure JavaScript <Slider /> component for react-native
-
-![npm version](http://img.shields.io/npm/v/react-native-slider.svg?style=flat-square)
-
-![npm downloads](http://img.shields.io/npm/dm/react-native-slider.svg?style=flat-square)
-
-![npm licence](http://img.shields.io/npm/l/react-native-slider.svg?style=flat-square)
 
 ![Demo](https://raw.githubusercontent.com/jeanregisser/react-native-slider/master/Screenshots/basic.png)
 
@@ -622,19 +527,6 @@ Use the iOS native Twitter and Facebook share view from react native
 ![Animation](https://raw.githubusercontent.com/doefler/react-native-social-share/master/animation-looping.gif)
 
 ![Screenshot](https://raw.githubusercontent.com/doefler/react-native-social-share/master/still.png)
-
-------
-
-
-### [react-native-speech](https://github.com/naoufal/react-native-speech)
-
-A text-to-speech library for React Native.
-
-![npm version](https://img.shields.io/npm/v/react-native-speech.svg?style=flat-square)
-
-![npm downloads](https://img.shields.io/npm/dm/react-native-speech.svg?style=flat-square)
-
-![Code Climate](https://img.shields.io/codeclimate/github/naoufal/react-nativespeech.svg?style=flat-square)
 
 ------
 
@@ -670,15 +562,16 @@ iOS-style swipeout buttons behind component
 
 Swiper component for React Native.
 
-![npm version](http://img.shields.io/npm/v/react-native-swiper.svg?style=flat-square)
-
-![npm version](http://img.shields.io/npm/dm/react-native-swiper.svg?style=flat-square)
-
-![Issue Stats](http://issuestats.com/github/leecade/react-native-swiper/badge/pr?style=flat-square)
-
-![Issue Stats](http://issuestats.com/github/leecade/react-native-swiper/badge/issue?style=flat-square)
-
 ![logo](http://i.imgur.com/P4cRUgD.png)
+
+------
+
+
+### [react-native-toolkit](https://github.com/marty-wang/react-native-toolkit)
+
+A collection of common UI components for react native mobile apps.
+
+![Twitter style navigation bar](https://raw.githubusercontent.com/marty-wang/react-native-toolkit/master/Examples/Screenshots/twitter-navbar.gif)
 
 ------
 
@@ -696,12 +589,6 @@ A react-native wrapper for showing tooltips
 
 React Native authentication with the native Touch ID popup.
 
-![npm version](https://img.shields.io/npm/v/react-native-touch-id.svg?style=flat-square)
-
-![npm downloads](https://img.shields.io/npm/dm/react-native-touch-id.svg?style=flat-square)
-
-![Code Climate](https://img.shields.io/codeclimate/github/naoufal/react-native-touch-id.svg?style=flat-square)
-
 ![react-native-touch-id](https://cloud.githubusercontent.com/assets/1627824/7975919/2c69a776-0a42-11e5-9773-3ea1c7dd79f3.gif)
 
 ------
@@ -712,26 +599,6 @@ React Native authentication with the native Touch ID popup.
 Ripple touch effect from Google Material Design.
 
 ![DEMO](./demo.gif)
-
-------
-
-
-### [react-native-userdefaults-ios](https://github.com/dsibiski/react-native-userdefaults-ios)
-
-React Native Module for NSUserDefaults
-
-![Build Status](https://travis-ci.org/dsibiski/react-native-userdefaults-ios.svg?branch=master)
-
-![NPM](https://nodei.co/npm/react-native-userdefaults-ios.png?downloads=true&downloadRank=true&stars=true)
-
-------
-
-
-### [react-native-util](https://github.com/exponentjs/react-native-util)
-
-A fork of io.js's util module that works with React Native
-
-![Build Status](https://travis-ci.org/exponentjs/react-native-util.svg?branch=master)
 
 ------
 
@@ -796,12 +663,6 @@ A redbox (rsod) component to display your uncaught errors.
 ### [redux-storage](https://github.com/michaelcontento/redux-storage)
 
 Persistence layer for redux with flexible backends
-
-![license](https://img.shields.io/npm/l/redux-storage.svg?style=flat-square)
-
-![npm version](https://img.shields.io/npm/v/redux-storage.svg?style=flat-square)
-
-![npm downloads](https://img.shields.io/npm/dm/redux-storage.svg?style=flat-square)
 
 ![Code Climate](https://codeclimate.com/github/michaelcontento/redux-storage/badges/gpa.svg)
 

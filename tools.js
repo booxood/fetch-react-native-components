@@ -39,6 +39,41 @@ exports.fetchByPackageInfo = function (packageInfo, cb) {
 };
 
 
+var url = require('url');
+var FILTER_URL = [
+  'img.shields.io',
+  'nodei.co',
+  'badges.gitter.im',
+  'travis-ci.org',
+  'issuestats.com'
+];
+
+/**
+ * 图片过滤
+ */
+exports.imageFilter = function (jsonResult) {
+  var filterResult = [];
+
+  jsonResult.forEach(function (result) {
+    if (!result || !result.images) return;
+
+    result.images = result.images.filter(function (image) {
+      var urlObj = url.parse(image.src);
+      if (!~FILTER_URL.indexOf(urlObj.host))
+        return true;
+      else
+        return false;
+    });
+
+    if (result.images.length <= 0) return;
+
+    filterResult.push(result);
+  });
+
+  return filterResult;
+};
+
+
 var EOL = require('os').EOL;
 var BR = EOL + EOL;
 
