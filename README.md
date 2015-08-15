@@ -472,9 +472,9 @@ An animated progress bar component for React Native
 
 A react component to implement custom radio buttons-like behaviors: multiple options, only on can be selected at once.
 
-![example](https://raw.githubusercontent.com/ArnaudRinquin/react-native-radio-buttons/master/./images/example.png)
+![example](https://raw.githubusercontent.com/ArnaudRinquin/react-native-radio-buttons/master/images/example.png)
 
-![Example](https://raw.githubusercontent.com/ArnaudRinquin/react-native-radio-buttons/master/./images/example.gif)
+![Example](https://raw.githubusercontent.com/ArnaudRinquin/react-native-radio-buttons/master/images/example.gif)
 
 ------
 
@@ -640,7 +640,7 @@ A square view component for react native.
 
 Swipeable modal component for react-native.
 
-![Demo](https://raw.githubusercontent.com/apolkingg8/React-Native-Swipeable-Modal/master/./rnsm.gif)
+![Demo](https://raw.githubusercontent.com/apolkingg8/React-Native-Swipeable-Modal/master/rnsm.gif)
 
 ------
 
@@ -694,7 +694,7 @@ React Native authentication with the native Touch ID popup.
 
 Ripple touch effect from Google Material Design.
 
-![DEMO](https://raw.githubusercontent.com/apolkingg8/React-Native-Touchable-Ripple/master/./demo.gif)
+![DEMO](https://raw.githubusercontent.com/apolkingg8/React-Native-Touchable-Ripple/master/demo.gif)
 
 ------
 

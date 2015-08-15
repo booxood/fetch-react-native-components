@@ -68,8 +68,8 @@ function _convertImagePath (github, path) {
   if (!github) return path;
 
   var rawPath = 'https://raw.githubusercontent.com/';
-  rawPath += github.user + '/' + github.repo;
-  rawPath += '/master/' + path;
+  rawPath += github.user + '/' + github.repo + '/master/';
+  rawPath = url.resolve(rawPath, path);
   return rawPath;
 }
 
