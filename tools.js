@@ -1,5 +1,8 @@
 'use strict';
 
+var url = require('url');
+var EOL = require('os').EOL;
+var BR = EOL + EOL;
 
 var Registry = require('npm-registry');
 var showdown = require('showdown');
@@ -7,6 +10,15 @@ var cheerio = require('cheerio');
 
 var npm = new Registry();
 var converter = new showdown.Converter();
+
+var FILTER_URL = [
+  'img.shields.io',
+  'nodei.co',
+  'badges.gitter.im',
+  'travis-ci.org',
+  'issuestats.com',
+  'codeclimate.com'
+];
 
 /**
  * 通过 packageInfo 获取 readme 上的 images
@@ -19,63 +31,48 @@ exports.fetchByPackageInfo = function (packageInfo, cb) {
     if (err) return cb(null, err);
     if (!data || !data[0] || !data[0].readme) return cb(null, 'no readme');
 
-    var html = converter.makeHtml(data[0].readme);
+    var packageDetail = data[0];
+
+    var html = converter.makeHtml(packageDetail.readme);
     var $ = cheerio.load(html);
     var imgElements = $('img');
     if (imgElements.length === 0) return cb(null, 'no img');
 
     var result = {};
     result.name = name;
-    result.url = data[0].homepage ? data[0].homepage.url :
+    result.url = packageDetail.homepage ? packageDetail.homepage.url :
       'https://www.npmjs.com/package/' + name;
     result.desc = desc;
     result.images = [];
     for (var j = 0; j < imgElements.length; j++) {
-      var img = imgElements[j];
-      result.images.push(img.attribs);
+      var img = imgElements[j].attribs;
+      if (!img.src) continue;
+
+      // 图片链接转换
+      if (img.src.indexOf('http') !== 0) {
+        img.src = _convertImagePath(packageDetail.github, img.src);
+      }
+
+      // 图片链接过滤
+      var urlObj = url.parse(img.src);
+      if (~FILTER_URL.indexOf(urlObj.host))
+        continue;
+
+      result.images.push(img);
     }
     cb(null, result);
   });
 };
 
+function _convertImagePath (github, path) {
+  if (!github) return path;
 
-var url = require('url');
-var FILTER_URL = [
-  'img.shields.io',
-  'nodei.co',
-  'badges.gitter.im',
-  'travis-ci.org',
-  'issuestats.com'
-];
+  var rawPath = 'https://raw.githubusercontent.com/';
+  rawPath += github.user + '/' + github.repo;
+  rawPath += '/master/' + path;
+  return rawPath;
+}
 
-/**
- * 图片过滤
- */
-exports.imageFilter = function (jsonResult) {
-  var filterResult = [];
-
-  jsonResult.forEach(function (result) {
-    if (!result || !result.images) return;
-
-    result.images = result.images.filter(function (image) {
-      var urlObj = url.parse(image.src);
-      if (!~FILTER_URL.indexOf(urlObj.host))
-        return true;
-      else
-        return false;
-    });
-
-    if (result.images.length <= 0) return;
-
-    filterResult.push(result);
-  });
-
-  return filterResult;
-};
-
-
-var EOL = require('os').EOL;
-var BR = EOL + EOL;
 
 /**
  * 将 JSON 格式的结果转成 MarkDown 格式

@@ -53,6 +53,29 @@ An ASCIImage component for React Native
 ------
 
 
+### [react-native-background-geolocation](https://transistorsoft.github.io/react-native-background-geolocation)
+
+Sophisticated background location-tracking with battery-conscious motion-detection
+
+![Home](https://www.dropbox.com/s/4cggjacj68cnvpj/screenshot-iphone5-geofences-framed.png?dl=1)
+
+![Settings](https://www.dropbox.com/s/mmbwgtmipdqcfff/screenshot-iphone5-settings-framed.png?dl=1)
+
+![Home](https://www.dropbox.com/s/4cggjacj68cnvpj/screenshot-iphone5-geofences-framed.png?dl=1)
+
+![Settings](https://www.dropbox.com/s/mmbwgtmipdqcfff/screenshot-iphone5-settings-framed.png?dl=1)
+
+![Enable Background Audio](https://www.dropbox.com/s/n2aj4fiiilyesjm/enable-background-audio.png?dl=1)
+
+![distanceFilter at highway speed](https://www.dropbox.com/s/9t39g346g489ni3/distance-filter-highway.png?dl=1)
+
+![distanceFilter at city scale](https://www.dropbox.com/s/qrpid9mlskmygmu/distance-filter-city.png?dl=1)
+
+![Geofence Features](https://www.dropbox.com/s/609iibr6ofzoq7p/Screenshot%202015-06-06%2017.05.33.png?dl=1)
+
+------
+
+
 ### [react-native-barcode-scanner](https://github.com/lifuzu/ReactNativeBarcodeScanner)
 
 Barcode scanner for React Native
@@ -87,6 +110,15 @@ A Camera component for React Native. Also reads barcodes.
 Animated collapsible component for React Native using the new Animated API with fallback. Good for accordions, toggles etc
 
 ![demo](https://cloud.githubusercontent.com/assets/378279/8047315/0237ca2c-0e44-11e5-9a16-1da052406eb0.gif)
+
+------
+
+
+### [react-native-color-grabber](https://github.com/bsudekum/react-native-color-grabber)
+
+React native component for finding dominant colors in an image
+
+![](https://cldup.com/73LEp_q3UE.gif)
 
 ------
 
@@ -174,6 +206,13 @@ React Native wrapper for native iOS Facebook SDK login button and manager
 ------
 
 
+### [react-native-file-upload](https://github.com/booxood/react-native-file-upload)
+
+A file upload plugin for react-native
+
+------
+
+
 ### [react-native-floating-labels](https://github.com/mayank-patel/react-native-floating-labels)
 
 Reusabe floating lable component for react native
@@ -203,11 +242,24 @@ Gesture recognizer decorators for react-native
 ------
 
 
+### [react-native-google-signin](https://github.com/apptailor/react-native-google-signin)
+
+Google Signin for your react native applications
+
+![xcode config](https://github.com/apptailor/react-native-google-signin/raw/master/img/demo-app.gif)
+
+![xcode config](https://github.com/apptailor/react-native-google-signin/raw/master/img/lib-config.png)
+
+![xcode config](https://github.com/apptailor/react-native-google-signin/raw/master/img/url-config.png)
+
+------
+
+
 ### [react-native-grid-view](https://github.com/lucholaf/react-native-grid-view)
 
 React Native Grid/Collection View component
 
-![Image of react-grid-view](screen1.jpg)
+![Image of react-grid-view](https://raw.githubusercontent.com/lucholaf/react-native-grid-view/master/screen1.jpg)
 
 ------
 
@@ -270,6 +322,20 @@ Progress indicator for networked images, supports progress bar and spinner
 ------
 
 
+### [react-native-infinite-scroll-view](https://github.com/exponentjs/react-native-infinite-scroll-view)
+
+An infinitely scrolling view that notifies you as the scroll offset approaches the bottom
+
+------
+
+
+### [react-native-invertible-scroll-view](https://github.com/exponentjs/react-native-invertible-scroll-view)
+
+An invertible ScrollView for React Native
+
+------
+
+
 ### [react-native-lightbox](https://github.com/oblador/react-native-lightbox)
 
 Images etc in Full Screen Lightbox Popovers for React Native
@@ -324,11 +390,20 @@ A <MaskedView> element for react-native
 ------
 
 
+### [react-native-material-kit](https://github.com/xinthink/react-native-material-kit)
+
+Material Design components for React Native
+
+------
+
+
 ### [react-native-modalbox](https://github.com/maxs15/react-native-modalbox)
 
 A <Modal/> component for react-native
 
 ![](https://i.imgur.com/QTAYh81.gif)
+
+![](http://i.imgur.com/3XULLt8.gif)
 
 ------
 
@@ -397,9 +472,9 @@ An animated progress bar component for React Native
 
 A react component to implement custom radio buttons-like behaviors: multiple options, only on can be selected at once.
 
-![example](./images/example.png)
+![example](https://raw.githubusercontent.com/ArnaudRinquin/react-native-radio-buttons/master/./images/example.png)
 
-![Example](./images/example.gif)
+![Example](https://raw.githubusercontent.com/ArnaudRinquin/react-native-radio-buttons/master/./images/example.gif)
 
 ------
 
@@ -453,6 +528,20 @@ A React Native wrapper for Safari View Controller
 ------
 
 
+### [react-native-scrollable-decorator](https://github.com/exponentjs/react-native-scrollable-decorator)
+
+A standard interface for your scrollable React Native components, making it easier to compose components
+
+------
+
+
+### [react-native-scrollable-mixin](https://github.com/exponentjs/react-native-scrollable-mixin)
+
+A standard interface for your scrollable React Native components, making it easier to compose components.
+
+------
+
+
 ### [react-native-scrollable-tab-view](https://github.com/brentvatne/react-native-scrollable-tab-view)
 
 This is probably my favorite navigation pattern on Android, I wish it were more common on iOS! This is a very simple JavaScript-only implementation of it for React Native. For more information about how the animations behind this work, check out the Rebou
@@ -468,7 +557,7 @@ This is probably my favorite navigation pattern on Android, I wish it were more 
 
 The native search bar for react native.
 
-![undefined](SearchBar.png)
+![undefined](https://raw.githubusercontent.com/umhan35/react-native-search-bar/master/SearchBar.png)
 
 ------
 
@@ -531,11 +620,18 @@ Use the iOS native Twitter and Facebook share view from react native
 ------
 
 
+### [react-native-speech](https://github.com/naoufal/react-native-speech)
+
+A text-to-speech library for React Native.
+
+------
+
+
 ### [react-native-square-view](https://github.com/Shuangzuan/react-native-square-view)
 
 A square view component for react native.
 
-![Screen Shot](screen-shot.png)
+![Screen Shot](https://raw.githubusercontent.com/Shuangzuan/react-native-square-view/master/screen-shot.png)
 
 ------
 
@@ -544,7 +640,7 @@ A square view component for react native.
 
 Swipeable modal component for react-native.
 
-![Demo](./rnsm.gif)
+![Demo](https://raw.githubusercontent.com/apolkingg8/React-Native-Swipeable-Modal/master/./rnsm.gif)
 
 ------
 
@@ -598,7 +694,21 @@ React Native authentication with the native Touch ID popup.
 
 Ripple touch effect from Google Material Design.
 
-![DEMO](./demo.gif)
+![DEMO](https://raw.githubusercontent.com/apolkingg8/React-Native-Touchable-Ripple/master/./demo.gif)
+
+------
+
+
+### [react-native-userdefaults-ios](https://github.com/dsibiski/react-native-userdefaults-ios)
+
+React Native Module for NSUserDefaults
+
+------
+
+
+### [react-native-util](https://github.com/exponentjs/react-native-util)
+
+A fork of io.js's util module that works with React Native
 
 ------
 
@@ -620,6 +730,15 @@ Customizable Icons for React Native with support for NavBar/TabBar, image source
 ------
 
 
+### [react-native-voximplant](https://github.com/voximplant/react-native-voximplant)
+
+VoxImplant Mobile SDK for embedding voice and video communication into React Native apps.
+
+![VoxImplant SDK demo](http://static.voximplant.com/react-native-voximplant.gif)
+
+------
+
+
 ### [react-native-youtube](https://github.com/paramaggarwal/react-native-youtube)
 
 A <YouTube/> component for React Native.
@@ -637,7 +756,7 @@ A <YouTube/> component for React Native.
 
 A pull down to refresh control for react native.
 
-![Screen Shot](screen-shot.gif)
+![Screen Shot](https://raw.githubusercontent.com/Shuangzuan/RCTRefreshControl/master/screen-shot.gif)
 
 ------
 
@@ -660,11 +779,23 @@ A redbox (rsod) component to display your uncaught errors.
 ------
 
 
+### [redux-middleware-react-native-appstate](https://github.com/michaelcontento/redux-middleware-react-native-appstate)
+
+Glue AppState from react-native to Redux.
+
+------
+
+
+### [redux-middleware-react-native-netinfo](https://github.com/michaelcontento/redux-middleware-react-native-netinfo)
+
+Glue NetInfo from react-native to Redux.
+
+------
+
+
 ### [redux-storage](https://github.com/michaelcontento/redux-storage)
 
 Persistence layer for redux with flexible backends
-
-![Code Climate](https://codeclimate.com/github/michaelcontento/redux-storage/badges/gpa.svg)
 
 ------
 
@@ -673,15 +804,15 @@ Persistence layer for redux with flexible backends
 
 react-native powered UI library for developing forms writing less code
 
-![Result](docs/images/result.png)
+![Result](https://raw.githubusercontent.com/gcanti/tcomb-form-native/master/docs/images/result.png)
 
-![Result after a validation error](docs/images/validation.png)
+![Result after a validation error](https://raw.githubusercontent.com/gcanti/tcomb-form-native/master/docs/images/validation.png)
 
-![Placeholders](docs/images/placeholders.png)
+![Placeholders](https://raw.githubusercontent.com/gcanti/tcomb-form-native/master/docs/images/placeholders.png)
 
-![Help](docs/images/help.png)
+![Help](https://raw.githubusercontent.com/gcanti/tcomb-form-native/master/docs/images/help.png)
 
-![Help](docs/images/error.png)
+![Help](https://raw.githubusercontent.com/gcanti/tcomb-form-native/master/docs/images/error.png)
 
 ------
 
