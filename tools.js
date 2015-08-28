@@ -28,7 +28,10 @@ exports.fetchByPackageInfo = function (packageInfo, cb) {
   var desc = packageInfo.description;
 
   npm.packages.get(name, function (err, data) {
-    if (err) return cb(null, err);
+    if (err) {
+        console.log('npm.packages.get err:', name, err);
+        return cb(null, err);
+    }
     if (!data || !data[0] || !data[0].readme) return cb(null, 'no readme');
 
     var packageDetail = data[0];
@@ -78,7 +81,9 @@ function _convertImagePath (github, path) {
  * 将 JSON 格式的结果转成 MarkDown 格式
  */
 exports.jsonResultToMarkdown = function (jsonResult) {
-  var markdown = '';
+  var markdown = BR;
+  markdown += 'Update date: ' + new Date;
+  markdown += BR + '------' + BR;
   jsonResult.forEach(function (result) {
     if (!result || !result.images) return;
     markdown += EOL;

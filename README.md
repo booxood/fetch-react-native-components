@@ -1,14 +1,44 @@
 ## React Native Components List
 
-用 `react-native` 关键字搜索 `npm registry` 上的包，将 `README.md` 上有演示图片的组件搜集起来。
+Use `react-native` keyword search in `npm registry` package, fetch 'README.md' pictures inside.
 
 ------
+
+
+Update date: Fri Aug 28 2015 23:38:27 GMT+0800 (CST)
+
+------
+
+
+### [gl-react-native](https://github.com/ProjectSeptemberInc/gl-react-native)
+
+OpenGL bindings for react-native to implement complex effects over images and components, in the descriptive VDOM paradigm
+
+![](https://github.com/ProjectSeptemberInc/gl-react-native/raw/master/imgs/simple.gif)
+
+![](https://github.com/ProjectSeptemberInc/gl-react-native/raw/master/imgs/advancedeffects.gif)
+
+![](https://github.com/ProjectSeptemberInc/gl-react-native/raw/master/imgs/hellogl.jpg)
+
+![](https://github.com/ProjectSeptemberInc/gl-react-native/raw/master/imgs/install-steps.png)
+
+------
+
 
 ### [js-data-asyncstorage](http://www.js-data.io/docs/dsasyncstorageadapter)
 
 js-data Adapter for react-native AsyncStorage
 
 ![js-data logo](https://raw.githubusercontent.com/js-data/js-data/master/js-data.png)
+
+------
+
+
+### [k-react-native-swipe-unlocker](https://github.com/leowang721/k-react-native-swipe-unlocker)
+
+A simple swipe unlock for React Native
+
+![Normal Screen](https://leowang721.github.io/images/resource/k-react-native-swipe-unlocker/normal-screen.png)
 
 ------
 
@@ -150,6 +180,15 @@ Add coloured borders or backgrounds to all views to make it easier to debug layo
 ------
 
 
+### [react-native-device](https://github.com/GertjanReynaert/react-native-device)
+
+UIDevice wrapper for React Native
+
+![undefined](http://i.imgur.com/GZeVPPd.png)
+
+------
+
+
 ### [react-native-device-display](https://github.com/kkjdaniel/react-native-display-view)
 
 A simple way to create dynamic views through device and display detection, allowing the creation of adaptable and universal apps.
@@ -161,7 +200,25 @@ A simple way to create dynamic views through device and display detection, allow
 ------
 
 
+### [react-native-draggable-drawer](https://github.com/llanox/react-native-draggable-drawer)
+
+DraggableDrawer component for React Native.
+
+![react-native-draggable-drawer](http://i.imgur.com/AequjyD.gif)
+
+------
+
+
 ### [react-native-drawer](https://github.com/rt2zz/react-native-drawer)
+
+React Native Drawer
+
+![undefined](https://raw.githubusercontent.com/rt2zz/react-native-drawer/master/examples/rn-drawer.gif)
+
+------
+
+
+### [react-native-drawer-addmenu](https://github.com/rt2zz/react-native-drawer)
 
 React Native Drawer
 
@@ -197,11 +254,20 @@ Easy to show html, image, video fullscreen pages.
 ------
 
 
+### [react-native-eximage](https://github.com/guodong000/react-native-eximage)
+
+A Third Party Image Module.
+
+------
+
+
 ### [react-native-facebook-login](https://github.com/magus/react-native-facebook-login)
 
 React Native wrapper for native iOS Facebook SDK login button and manager
 
-![preview](https://raw.githubusercontent.com/magus/react-native-facebook-login/master/preview.gif)
+![preview](https://raw.githubusercontent.com/magus/react-native-facebook-login/master/images/preview.gif)
+
+![example-fbsdk-frameworks](https://raw.githubusercontent.com/magus/react-native-facebook-login/master/images/facebook-framework-example.png)
 
 ------
 
@@ -242,6 +308,15 @@ Gesture recognizer decorators for react-native
 ------
 
 
+### [react-native-global-event-emitter](https://github.com/paramaggarwal/react-native-global-event-emitter)
+
+Shared event emitter between native and JS for React Native.
+
+![Screenshot of the example app](https://github.com/paramaggarwal/react-native-global-event-emitter/raw/master/Screenshot.png)
+
+------
+
+
 ### [react-native-google-signin](https://github.com/apptailor/react-native-google-signin)
 
 Google Signin for your react native applications
@@ -251,6 +326,15 @@ Google Signin for your react native applications
 ![xcode config](https://github.com/apptailor/react-native-google-signin/raw/master/img/lib-config.png)
 
 ![xcode config](https://github.com/apptailor/react-native-google-signin/raw/master/img/url-config.png)
+
+------
+
+
+### [react-native-google-static-map](https://github.com/yelled3/react-native-google-static-map)
+
+A wrapper for Google's Static Maps
+
+![Demo](https://raw.githubusercontent.com/yelled3/react-native-google-static-map/master/Example/demo.png)
 
 ------
 
@@ -329,13 +413,6 @@ An infinitely scrolling view that notifies you as the scroll offset approaches t
 ------
 
 
-### [react-native-invertible-scroll-view](https://github.com/exponentjs/react-native-invertible-scroll-view)
-
-An invertible ScrollView for React Native
-
-------
-
-
 ### [react-native-lightbox](https://github.com/oblador/react-native-lightbox)
 
 Images etc in Full Screen Lightbox Popovers for React Native
@@ -392,7 +469,17 @@ A <MaskedView> element for react-native
 
 ### [react-native-material-kit](https://github.com/xinthink/react-native-material-kit)
 
-Material Design components for React Native
+Bringing Material Design to React Native
+
+![buttons-mdl](https://cloud.githubusercontent.com/assets/390805/8888853/69f8d9f8-32f2-11e5-9823-c235ab8c0dd2.gif)
+
+![textfields-mdl](https://cloud.githubusercontent.com/assets/390805/9085678/8280484a-3bb1-11e5-9354-a244b0520736.gif)
+
+![toggles-mdl](https://cloud.githubusercontent.com/assets/390805/8903074/de0ed748-3487-11e5-9448-9ee304e0a6b6.gif)
+
+![progress-mdl](https://cloud.githubusercontent.com/assets/390805/9288698/01e31432-4387-11e5-98e5-85b18471baeb.gif)
+
+![spinner-mdl](https://cloud.githubusercontent.com/assets/390805/9288699/01e3573a-4387-11e5-8f7b-6c34066846fe.gif)
 
 ------
 
@@ -464,6 +551,15 @@ Parallax view for vertical scrollview with a header image and header content
 An animated progress bar component for React Native
 
 ![](https://i.imgur.com/EGufppz.gif)
+
+------
+
+
+### [react-native-radio-button-classic](https://github.com/pressly/react-native-radio-button-classic)
+
+Bring Classic Radio to React-Native
+
+![undefined](https://raw.githubusercontent.com/pressly/react-native-radio-button-classic/master/demo.gif)
 
 ------
 
@@ -591,6 +687,15 @@ Simple customizable component to create side menu
 ------
 
 
+### [react-native-signature-capture](https://github.com/RepairShopr/react-native-signature-capture)
+
+Lets users sign their signatures
+
+![undefined](http://i.giphy.com/3oEduIyWb48Ws3bSuc.gif)
+
+------
+
+
 ### [react-native-simple-auth](https://github.com/adamjmcgrath/react-native-simple-auth)
 
 Native social authentication for React Native on iOS
@@ -609,6 +714,15 @@ A pure JavaScript <Slider /> component for react-native
 ------
 
 
+### [react-native-slider-button](https://github.com/agentS/react-native-slider-button)
+
+Slider button inspired by the slide to unlock widget with an optional animation manipulating the text's transparency. Of course, both the animation duration and text can be customized too.
+
+![Slider button demo](https://cloud.githubusercontent.com/assets/5032736/9308065/2fc31704-4502-11e5-89a6-d9ef4e619034.gif)
+
+------
+
+
 ### [react-native-social-share](https://github.com/doefler/react-native-social-share)
 
 Use the iOS native Twitter and Facebook share view from react native
@@ -623,6 +737,15 @@ Use the iOS native Twitter and Facebook share view from react native
 ### [react-native-speech](https://github.com/naoufal/react-native-speech)
 
 A text-to-speech library for React Native.
+
+------
+
+
+### [react-native-spinkit](https://github.com/maxs15/react-native-spinkit)
+
+A collection of animated loading indicators for React Native
+
+![](http://i.imgur.com/AwJsakU.gif)
 
 ------
 
@@ -659,6 +782,17 @@ iOS-style swipeout buttons behind component
 Swiper component for React Native.
 
 ![logo](http://i.imgur.com/P4cRUgD.png)
+
+------
+
+
+### [react-native-tableview](https://github.com/aksonov/react-native-tableview)
+
+Native iOS TableView wrapper for React Native
+
+![demo](https://cloud.githubusercontent.com/assets/1321329/9329083/cc77b4e0-45ae-11e5-9919-34f12e6d407c.gif)
+
+![demo2](https://cloud.githubusercontent.com/assets/1321329/9335801/7a4d42ca-45d6-11e5-860c-969db80413ca.gif)
 
 ------
 
@@ -734,7 +868,7 @@ Customizable Icons for React Native with support for NavBar/TabBar, image source
 
 VoxImplant Mobile SDK for embedding voice and video communication into React Native apps.
 
-![VoxImplant SDK demo](http://static.voximplant.com/react-native-voximplant.gif)
+![VoxImplant SDK demo](https://habrastorage.org/files/185/1b5/dd6/1851b5dd689e4a688c2f6e68fcf38d81.gif)
 
 ------
 
@@ -775,6 +909,13 @@ Relay-inspired library based on Promises instead of GraphQL.
 A redbox (rsod) component to display your uncaught errors.
 
 ![red screen of death](http://i.imgur.com/9Jhlibk.png)
+
+------
+
+
+### [redux-log-slow-reducers](https://github.com/michaelcontento/redux-log-slow-reducers)
+
+Warn about slow reducers used in your redux app.
 
 ------
 

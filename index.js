@@ -17,8 +17,8 @@ async.waterfall([
   function (packages, callback) {
     console.log('Packages count:', packages.length);
     var tasks = packages.map(function (packageInfo) {
-      return function (callback) {
-        tools.fetchByPackageInfo(packageInfo, callback);
+      return function (cb) {
+        tools.fetchByPackageInfo(packageInfo, cb);
       };
     });
 
