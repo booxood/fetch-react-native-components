@@ -8,7 +8,9 @@ var async = require('async');
 var tools = require('./tools');
 
 var KEY_WORDS = 'react-native';
-var npm = new Registry();
+var npm = new Registry({
+    registry: Registry.mirrors.npmjs,
+});
 
 async.waterfall([
   function (callback) {

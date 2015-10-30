@@ -17,7 +17,9 @@ var FILTER_URL = [
   'badges.gitter.im',
   'travis-ci.org',
   'issuestats.com',
-  'codeclimate.com'
+  'codeclimate.com',
+  'david-dm.org',
+  'circleci.com'
 ];
 
 /**

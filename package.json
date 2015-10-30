@@ -4,6 +4,7 @@
   "description": "Fetch react-native components info",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,6 +13,7 @@
   },
   "keywords": [
     "fetch",
+    "collect",
     "react-native",
     "components"
   ],

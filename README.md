@@ -5,7 +5,7 @@ Use `react-native` keyword search in `npm registry` package, fetch 'README.md' p
 ------
 
 
-Update date: Fri Oct 16 2015 09:28:47 GMT+0800 (CST)
+Update date: Fri Oct 30 2015 14:29:21 GMT+0800 (CST)
 
 ------
 
@@ -67,8 +67,6 @@ OpenGL bindings for react-native to implement complex effects over images and co
 
 module to build image and profile urls for gravatar
 
-![Dependencies](https://david-dm.org/lwhiteley/nodejs-gravatar.svg)
-
 ------
 
 
@@ -107,8 +105,6 @@ Processable, dynamic & stateful Component Styling for React & React Native
 
 ![npm version](https://badge.fury.io/js/react-look.svg)
 
-![Dependencies](https://david-dm.org/rofrischmann/react-look.svg)
-
 ------
 
 
@@ -121,6 +117,15 @@ An Accordion Component for React Native
 ![accordion-transit](https://cloud.githubusercontent.com/assets/1627824/7757509/ffee4358-ffd0-11e4-9fc5-13c8d6f09ad0.gif)
 
 ![accordion-tweetbot](https://cloud.githubusercontent.com/assets/1627824/7757570/6b391106-ffd1-11e4-9191-e501e81ca506.gif)
+
+------
+
+
+### [react-native-action-button](https://github.com/mastermoo/react-native-action-button)
+
+customizable multi-action-button component for react-native
+
+![react-native-action-button demo](http://i.giphy.com/3oEduOzHEUJHPnUWv6.gif)
 
 ------
 
@@ -139,6 +144,57 @@ iOS share and action sheets for React Native
 React Native Bridge for ADBannerView
 
 ![](https://raw.githubusercontent.com/Purii/react-native-adbannerview/master/screenshot.png)
+
+------
+
+
+### [react-native-alphabetlistview](https://github.com/sunnylqm/react-native-alphabetlistview)
+
+A Listview with a sidebar to jump to sections directly, based on johanneslumpe's react-native-selectablesectionlistview
+
+![How it looks](http://lum.pe/sectionlistview.gif)
+
+------
+
+
+### [react-native-android-statusbar](https://github.com/NishanthShankar/react-native-android-statusbar)
+
+A react native android package to control the status bar.
+
+![npm version](https://badge.fury.io/js/react-native-android-statusbar.svg)
+
+------
+
+
+### [react-native-animatable](https://github.com/oblador/react-native-animatable)
+
+Standard set of easy to use animations and declarative transitions for React Native
+
+![Animatable looping demo](https://cloud.githubusercontent.com/assets/378279/10716023/9f4a6670-7b00-11e5-944c-d52a1dcf0884.gif)
+
+![animatable-demo](https://cloud.githubusercontent.com/assets/378279/10629128/3c373324-779a-11e5-8311-a3a489575b75.gif)
+
+![animatable-attention](https://cloud.githubusercontent.com/assets/378279/10590307/ef73b1ba-767d-11e5-8fb9-9779d3a53a50.gif)
+
+![animatable-bouncein](https://cloud.githubusercontent.com/assets/378279/10590306/ef572bbc-767d-11e5-8440-8e61d401537a.gif)
+
+![animatable-bounceout](https://cloud.githubusercontent.com/assets/378279/10590305/ef56e4cc-767d-11e5-9562-6cd3210faf34.gif)
+
+![animatable-fadein](https://cloud.githubusercontent.com/assets/378279/10590304/ef4f09b4-767d-11e5-9a43-06e97e8ee2c1.gif)
+
+![animatable-fadeout](https://cloud.githubusercontent.com/assets/378279/10590303/ef3e9598-767d-11e5-83bc-bd48d6017131.gif)
+
+![animatable-flip](https://cloud.githubusercontent.com/assets/378279/10590296/ef3076ca-767d-11e5-9f62-6b9c696dad51.gif)
+
+![animatable-lightspeed](https://cloud.githubusercontent.com/assets/378279/10590301/ef374c8e-767d-11e5-83ad-b249d2731f43.gif)
+
+![animatable-slidein](https://cloud.githubusercontent.com/assets/378279/10590300/ef36dfe2-767d-11e5-932b-1cccce78087b.gif)
+
+![animatable-slideout](https://cloud.githubusercontent.com/assets/378279/10590299/ef35a3ca-767d-11e5-94e0-441fd49b6444.gif)
+
+![animatable-zoomin](https://cloud.githubusercontent.com/assets/378279/10590302/ef37d438-767d-11e5-8480-a212e21c2192.gif)
+
+![animatable-zoomout](https://cloud.githubusercontent.com/assets/378279/10590298/ef33fa52-767d-11e5-80fe-6b8dbb5e53d0.gif)
 
 ------
 
@@ -230,8 +286,6 @@ Full-featured web browser module for React Native apps, based on TOWebViewContro
 
 Builtins that were extracted from node-browser-resolve on which browserify depends.
 
-![Dependency status](https://david-dm.org/alexgorbatchev/node-browser-builtins.png)
-
 ------
 
 
@@ -264,11 +318,35 @@ Delightfully-animated data visualization.
 ------
 
 
+### [react-native-circular-progress](https://github.com/bgryszko/react-native-circular-progress)
+
+React Native component for creating animated, circular progress with ReactART
+
+![image](https://raw.githubusercontent.com/bgryszko/react-native-circular-progress/master/screenshot.gif)
+
+------
+
+
+### [react-native-code-push](https://microsoft.github.io/code-push)
+
+React Native plugin for the CodePush service
+
+![Add CodePush to project](https://cloud.githubusercontent.com/assets/516559/10322414/7688748e-6c32-11e5-83c1-00d3e6758df4.png)
+
+![Link CodePush during build](https://cloud.githubusercontent.com/assets/516559/10322221/a75ea066-6c31-11e5-9d88-ff6f6a4d6968.png)
+
+![Add CodePush library reference](https://cloud.githubusercontent.com/assets/516559/10322038/b8157962-6c30-11e5-9264-494d65fd2626.png)
+
+------
+
+
 ### [react-native-collapsible](https://github.com/oblador/react-native-collapsible)
 
 Animated collapsible component for React Native using the Animated API. Good for accordions, toggles etc
 
 ![demo](https://cloud.githubusercontent.com/assets/378279/8047315/0237ca2c-0e44-11e5-9a16-1da052406eb0.gif)
+
+![accordion-demo](https://cloud.githubusercontent.com/assets/378279/10766660/e3e88ff0-7cae-11e5-98b0-fdf2a8ac13ea.gif)
 
 ------
 
@@ -285,8 +363,6 @@ React native component for finding dominant colors in an image
 ### [react-native-css](https://github.com/sabeurthabti/react-native-css)
 
 CSS style your React Components
-
-![Circle CI](https://circleci.com/gh/sabeurthabti/react-native-css.svg?style=svg&circle-token=a140907997e6a37c6c5ec75f04e8150cef049ff6)
 
 ![the workflow](http://i.imgur.com/i2OdwiY.png)
 
@@ -419,6 +495,15 @@ Easy to show html, image, video fullscreen pages.
 ------
 
 
+### [react-native-event-source](https://github.com/jordanbyron/react-native-event-source)
+
+A react-native component for EventSource: Server-Sent Events for iOS
+
+![adding to XCode](http://brentvatne.ca/images/packaging/7-add-link.gif)
+
+------
+
+
 ### [react-native-eximage](https://github.com/guodong000/react-native-eximage)
 
 A Third Party Image Module.
@@ -442,6 +527,15 @@ React Native wrapper for native iOS Facebook SDK login button and manager
 ### [react-native-file-upload](https://github.com/booxood/react-native-file-upload)
 
 A file upload plugin for react-native
+
+------
+
+
+### [react-native-floating-label-text-input](https://github.com/eyaleizenberg/react-native-floating-label-text-input)
+
+iOS text input with animated floating label
+
+![undefined](http://i.imgur.com/5dddNix.gif)
 
 ------
 
@@ -484,6 +578,17 @@ Gesture recognizer decorators for react-native
 ------
 
 
+### [react-native-gestures](https://github.com/kiddkai/react-native-gestures)
+
+composable gesture system in react native
+
+![](http://imgur.com/6dCrcfL.gif)
+
+![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)
+
+------
+
+
 ### [react-native-global-event-emitter](https://github.com/paramaggarwal/react-native-global-event-emitter)
 
 Shared event emitter between native and JS for React Native.
@@ -511,6 +616,15 @@ Google Signin for your react native applications
 ![xcode config](https://github.com/apptailor/react-native-google-signin/raw/master/img/lib-config.png)
 
 ![xcode config](https://github.com/apptailor/react-native-google-signin/raw/master/img/url-config.png)
+
+------
+
+
+### [react-native-google-static-map](https://github.com/yelled3/react-native-google-static-map)
+
+A wrapper for Google's Static Maps
+
+![Demo](https://raw.githubusercontent.com/yelled3/react-native-google-static-map/master/Example/demo.png)
 
 ------
 
@@ -622,7 +736,7 @@ React Native default style iOS item cell
 
 Plug and play react-Native keyboard spacer view.
 
-![image](http://giant.gfycat.com/ThriftyCelebratedChital.gif)
+![image](http://fat.gfycat.com/InconsequentialBothAmericankestrel.gif)
 
 ------
 
@@ -728,6 +842,13 @@ Customizable material style switch
 ------
 
 
+### [react-native-meteor](https://github.com/inProgress-team/react-native-meteor)
+
+DDP React-native Client
+
+------
+
+
 ### [react-native-modalbox](https://github.com/maxs15/react-native-modalbox)
 
 A <Modal/> component for react-native
@@ -782,7 +903,7 @@ Pure JS slider component with multiple markers for React Native
 
 Simple customizable navbar component for react-native
 
-![Image of Yaktocat](http://i59.tinypic.com/1051boj.png)
+![react-native-side-menu demo](https://habrastorage.org/files/1b4/9cd/9d0/1b49cd9d0d054cada8ebef5e2326e10d.png)
 
 ------
 
@@ -904,6 +1025,15 @@ A React Native pull to refresh ListView completely written in js. Also supports 
 
 
 ### [react-native-router](https://github.com/t4t5/react-native-router)
+
+Awesome navigation for your native app.
+
+![Twitter navigation](http://tristanedwards.me/u/react-native-router/native-router.gif)
+
+------
+
+
+### [react-native-router-fix](https://github.com/t4t5/react-native-router)
 
 Awesome navigation for your native app.
 
@@ -1047,6 +1177,15 @@ Slider button inspired by the slide to unlock widget with an optional animation 
 ------
 
 
+### [react-native-sneer](https://github.com/sneerteam/react-native-sneer)
+
+A react native android module to talk with the Sneer api.
+
+![npm version](https://badge.fury.io/js/react-native-sneer.svg)
+
+------
+
+
 ### [react-native-social-share](https://github.com/doefler/react-native-social-share)
 
 Use the iOS native Twitter and Facebook share view from react native
@@ -1157,6 +1296,19 @@ Native iOS TableView wrapper for React Native
 ------
 
 
+### [react-native-tableview-simple](https://github.com/Purii/react-native-tableview-simple)
+
+React Native component for TableView made with pure CSS
+
+![](https://raw.github.com/Purii/react-native-tableview-simple/master/screenshotAboutScreen.png)
+
+![](https://raw.github.com/Purii/react-native-tableview-simple/master/screenshot.png)
+
+![](https://raw.github.com/Purii/react-native-tableview-simple/master/screenshotNative.png)
+
+------
+
+
 ### [react-native-timeago](https://github.com/TylerLH/react-native-timeago)
 
 Auto-updating timeago component for React Native
@@ -1260,6 +1412,15 @@ VoxImplant Mobile SDK for embedding voice and video communication into React Nat
 ------
 
 
+### [react-native-web](https://github.com/necolas/react-native-web)
+
+React Native for Web
+
+![npm version](https://badge.fury.io/js/react-native-web.svg)
+
+------
+
+
 ### [react-native-webpack-server](https://github.com/mjohnston/react-native-webpack-server)
 
 Build React Native apps with Webpack
@@ -1267,19 +1428,13 @@ Build React Native apps with Webpack
 ------
 
 
-### [react-native-webrtc](https://github.com/oney/react-native-webrtc)
+### [react-native-webview-js-context](https://github.com/shayne/react-native-webview-js-context)
 
-WebRTC for React Native
+Utilize the JavaScript VM running inside an iOS UIWebView to exploit libraries targeting the DOM (e.g. Google Charts).
 
-![Picture 1](http://i.imgur.com/NRHANSq.jpg)
+![npm version](https://badge.fury.io/js/react-native-webview-js-context.svg)
 
-![Picture 2](http://i.imgur.com/8fX2fDM.jpg)
-
-![Picture 3](http://i.imgur.com/vVDTIXD.jpg)
-
-![Picture 4](http://i.imgur.com/hHNfKkZ.jpg)
-
-![Picture 5](http://i.imgur.com/L3QkvzG.jpg)
+![undefined](http://shayne.github.io/react-native-webview-js-context/readme-files/google-charts-screenshot.png)
 
 ------
 
@@ -1320,6 +1475,15 @@ A pull down to refresh control for react native.
 Relay-inspired library based on Promises instead of GraphQL.
 
 ![](http://i.imgur.com/X3JE4Ev.png?1)
+
+------
+
+
+### [react-whitebox](https://github.com/amannn/react-whitebox)
+
+A component to display your errors.
+
+![example](http://i.imgur.com/MOCC8TB.png)
 
 ------
 
